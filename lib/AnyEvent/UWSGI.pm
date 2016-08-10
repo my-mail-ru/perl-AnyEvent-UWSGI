@@ -1,6 +1,6 @@
 =head1 NAME
  
-AnyEvent::UWSGI - non-blocking UWSGI client (based on AnyEvent::HTTP)
+AnyEvent::UWSGI - non-blocking UWSGI client (based on L<AnyEvent::HTTP>)
 
 =head1 SYNOPSIS
  
@@ -948,6 +948,8 @@ sub set_proxy($) {
 eval {
    set_proxy $ENV{http_proxy};
 };
+
+=back
 
 =head1 SEE ALSO
  
