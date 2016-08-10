@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/AnyEvent-UWSGI.t
+lib/AnyEvent/UWSGI.pm
