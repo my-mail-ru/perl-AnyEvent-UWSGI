@@ -367,7 +367,7 @@ our %IDEMPOTENT = (
 
 =item uwsgi_request
 
-Like L<AnyEvent::HTTP> C<http_request>
+Like C<AnyEvent::HTTP::http_request>
 
 =cut
 sub uwsgi_request($$@) {
@@ -860,7 +860,7 @@ sub uwsgi_request($$@) {
 
 =item uwsgi_get
 
-Like L<AnyEvent::HTTP> C<http_get>
+Like C<AnyEvent::HTTP::http_get>
 
 =cut
 sub uwsgi_get($@) {
@@ -870,7 +870,7 @@ sub uwsgi_get($@) {
 
 =item uwsgi_head
 
-Like L<AnyEvent::HTTP> C<http_head>
+Like C<AnyEvent::HTTP::http_head>
 
 =cut
 sub uwsgi_head($@) {
@@ -880,7 +880,7 @@ sub uwsgi_head($@) {
 
 =item uwsgi_post
 
-Like L<AnyEvent::HTTP> C<http_post>
+Like C<AnyEvent::HTTP::http_post>
 
 =cut
 sub uwsgi_post($$@) {

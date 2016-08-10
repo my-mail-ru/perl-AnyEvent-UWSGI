@@ -16,19 +16,19 @@ Subroutines prefixed by `http_*` (like request, get, post, head) replaced by app
 
 - uwsgi\_request
 
-    Like [AnyEvent::HTTP](https://metacpan.org/pod/AnyEvent::HTTP) `http_request`
+    Like `AnyEvent::HTTP::http_request`
 
 - uwsgi\_get
 
-    Like [AnyEvent::HTTP](https://metacpan.org/pod/AnyEvent::HTTP) `http_get`
+    Like `AnyEvent::HTTP::http_get`
 
 - uwsgi\_head
 
-    Like [AnyEvent::HTTP](https://metacpan.org/pod/AnyEvent::HTTP) `http_head`
+    Like `AnyEvent::HTTP::http_head`
 
 - uwsgi\_post
 
-    Like [AnyEvent::HTTP](https://metacpan.org/pod/AnyEvent::HTTP) `http_post`
+    Like `AnyEvent::HTTP::http_post`
 
 # SEE ALSO
 
