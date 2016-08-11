@@ -34,9 +34,14 @@ Subroutines prefixed by `http_*` (like request, get, post, head) replaced by app
 
 [AnyEvent::HTTP](https://metacpan.org/pod/AnyEvent::HTTP)
 
-# COPYRIGHT
+# AUTHOR
 
-Copyright 2016 Alexander Kazakov.
+Alexander Kazakov, <voland.kot@gmail.com>
 
-This library is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself.
+# COPYRIGHT AND LICENSE
+
+Copyright (C) 2016 by Alexander Kazakov
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.8 or,
+at your option, any later version of Perl 5 you may have available.

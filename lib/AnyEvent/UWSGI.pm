@@ -955,12 +955,17 @@ eval {
  
 L<AnyEvent::HTTP>
  
-=head1 COPYRIGHT
- 
-Copyright 2016 Alexander Kazakov.
- 
-This library is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself.
+=head1 AUTHOR
+
+Alexander Kazakov, E<lt>voland.kot@gmail.comE<gt>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2016 by Alexander Kazakov
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.8 or,
+at your option, any later version of Perl 5 you may have available.
 
 =cut
 
