@@ -1,6 +1,8 @@
 Changes
+lib/AnyEvent/UWSGI.pm
+LICENSE
 Makefile.PL
 MANIFEST
 README
+README.md
 t/AnyEvent-UWSGI.t
-lib/AnyEvent/UWSGI.pm
