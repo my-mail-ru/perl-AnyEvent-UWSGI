@@ -477,7 +477,7 @@ sub uwsgi_request($$@) {
       $env->{REQUEST_URI}    = $rpath;
       $env->{PATH_INFO}      = $rpath =~ m{^([^\?]+)} ? $1 : '';
       $env->{SERVER_PROTOCOL}= 'HTTP/1.1';
-      $env->{REMOTE_ADDR}    = format_address($lhost);
+      $env->{REMOTE_ADDR}    = AnyEvent::Socket::format_address($lhost);
       $env->{REMOTE_PORT}    = $lport;
       $env->{SERVER_PORT}    = $rport;
       $env->{SERVER_NAME}    = $rhost;
