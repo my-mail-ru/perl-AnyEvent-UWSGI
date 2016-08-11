@@ -518,7 +518,7 @@ sub uwsgi_request($$@) {
 
          for ("$_[1]") {
             y/\015//d; # weed out any \015, as they show up in the weirdest of places.
-            /^Status:\s+(\d+)\s+(.+)\012/gci
+            /^HTTP\/0*([0-9\.]+) \s+ ([0-9]{3}) (?: \s+ ([^\012]*) )? \012/gxci
                 or return _error %state, $cb, { @pseudo, Status => 599, Reason => "Invalid server response" };
 
             # 100 Continue handling
@@ -530,9 +530,9 @@ sub uwsgi_request($$@) {
                if $1 eq 100;
 
             push @pseudo,
-               HTTPVersion => '1.1',
-               Status      => $1,
-               Reason      => $2,
+               HTTPVersion => $1,
+               Status      => $2,
+               Reason      => $3,
             ;
 
             my $hdr = _parse_hdr
