@@ -16,5 +16,5 @@ WriteMakefile(
     }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/AnyEvent/UWSGI.pm', # retrieve abstract from module
-       AUTHOR         => 'Alexander Kazakov <alkazakov@cpan.org>') : ()),
+       AUTHOR         => 'Alexander Kazakov <voland.kot@gmail.com>') : ()),
 );
