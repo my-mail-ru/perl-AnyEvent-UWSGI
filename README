@@ -12,23 +12,27 @@ DESCRIPTION
 
 METHODS
     uwsgi_request
-        Like AnyEvent::HTTP `http_request'
+        Like `AnyEvent::HTTP::http_request'
 
     uwsgi_get
-        Like AnyEvent::HTTP `http_get'
+        Like `AnyEvent::HTTP::http_get'
 
     uwsgi_head
-        Like AnyEvent::HTTP `http_head'
+        Like `AnyEvent::HTTP::http_head'
 
     uwsgi_post
-        Like AnyEvent::HTTP `http_post'
+        Like `AnyEvent::HTTP::http_post'
 
 SEE ALSO
-        AnyEvent::HTTP
+    AnyEvent::HTTP
 
-COPYRIGHT
-        Copyright 2016 Alexander Kazakov.
+AUTHOR
+    Alexander Kazakov, <voland.kot@gmail.com>
 
-        This library is free software; you can redistribute it and/or modify
-        it under the same terms as Perl itself.
+COPYRIGHT AND LICENSE
+    Copyright (C) 2016 by Alexander Kazakov
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself, either Perl version 5.8.8 or, at
+    your option, any later version of Perl 5 you may have available.
 
